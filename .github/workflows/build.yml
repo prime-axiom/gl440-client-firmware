@@ -22,5 +22,5 @@ jobs:
       - name: Upload firmware artifact
         uses: actions/upload-artifact@v7
         with:
-          name: firmware
           path: firmware.hex
+          archive: false
